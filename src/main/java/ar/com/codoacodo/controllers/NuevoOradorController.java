@@ -75,7 +75,9 @@ public class NuevoOradorController extends AppBaseController{
 		
 		//capturar el id que viene en la url ?id=1
 		String id = request.getParameter("id");//f8
-		
+
+		//String id1 = request.getParameter("id");//f8
+
 		//captura los datos nuevos del orador
 		//obtengo el json desde el frontend
 		String json = super.toJson(request);
